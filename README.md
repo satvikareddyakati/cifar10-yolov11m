@@ -59,14 +59,6 @@ Ultralytics installs a compatible PyTorch automatically.
 
 ## 📦 Dataset
 
-* Training automatically downloads CIFAR-10 using:
-
-  ```python
-  ```
-
-data="cifar10"
-
-```
 - Default dataset root for evaluation scripts:
 
 ```
@@ -74,8 +66,6 @@ data="cifar10"
 /Users/satvikaakati/datasets/cifar10
 
 ````
-
-Update paths in scripts if stored elsewhere.
 
 ---
 
@@ -186,7 +176,6 @@ Modify the `source` parameter inside the script to test custom images.
   * `test_metrics.json`
   * `confusion_matrix.png`
   * `confusion_matrix_normalized.png`
-  * Optional prediction samples
 
 ---
 
